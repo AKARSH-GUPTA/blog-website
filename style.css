@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.roboto-mono{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+}
+#logo{
+    margin: 20px 20px 20px 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background-color: #537d5d;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin: 0 20px;
+    list-style: none;
+}
+nav ul li>a{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+transition: all 0.5s ease 0s;
+}
+nav ul li>a:hover{
+    color: #d2d0a0;
+}
